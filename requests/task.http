@@ -1,0 +1,30 @@
+###
+GET http://localhost:3000/api/tasks?title=React
+
+###
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+    "title": "Hacer una web en Reaticon",
+    "description": "Descripción de la tareas varias"
+}
+
+###
+GET http://localhost:3000/api/tasks/60632f6eb4933c0314ae6052
+
+###
+DELETE http://localhost:3000/api/tasks/60632f6eb4933c0314ae6052
+
+###
+GET http://localhost:3000/api/tasks/done/
+
+###
+
+PUT  http://localhost:3000/api/tasks/606332effd0d8f13b0e42b26
+content-Type: application/json
+
+{
+    "title": "Hacer una web en odoo15",
+    "description": "Descripción de la tarea para odoo15"
+}
